@@ -7,6 +7,13 @@ console.log('Sum of the numbers is: ' + sum);  */
 
 //Variable declared and assigned to null
 
-var a = null;
+/* var a = null;
 console.log(a);
-console.log(typeof(a));
+console.log(typeof(a)); */
+
+// Type Annotation
+function display(id: number, name: string) {
+    console.log("Id = " + id + ", Name = " + name);  
+}
+
+display(101, 'Rahul');
